@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Theming/Colors All 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "wrap",
+      "justifyContent": "space-evenly",
+      "marginTop": 20,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      background
+    </div>
+    <div>
+      #FFF
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#000",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      background_dark
+    </div>
+    <div>
+      #000
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ECECEC",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      border
+    </div>
+    <div>
+      #ECECEC
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#565A5C",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      border_hover
+    </div>
+    <div>
+      #565A5C
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#54BBBA",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      connect
+    </div>
+    <div>
+      #54BBBA
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ECECEC",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      disabled_background
+    </div>
+    <div>
+      #ECECEC
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      foreground_primary
+    </div>
+    <div>
+      #FFF
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#565A5C",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      foreground_quaternary
+    </div>
+    <div>
+      #565A5C
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FAFAFA",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      foreground_secondary
+    </div>
+    <div>
+      #FAFAFA
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#E8F3F3",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      foreground_tertiary
+    </div>
+    <div>
+      #E8F3F3
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FCC947",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      instant_booking
+    </div>
+    <div>
+      #FCC947
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#565A5C",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      label_primary
+    </div>
+    <div>
+      #565A5C
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      label_quaternary
+    </div>
+    <div>
+      #FFF
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#AFB0B2",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      label_secondary
+    </div>
+    <div>
+      #AFB0B2
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#008A83",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      label_tertiary
+    </div>
+    <div>
+      #008A83
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#CC4B3E",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      negative
+    </div>
+    <div>
+      #CC4B3E
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8EFEE",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      negative_background
+    </div>
+    <div>
+      #F8EFEE
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#B33225",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      negative_hover
+    </div>
+    <div>
+      #B33225
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.3)",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      overlay
+    </div>
+    <div>
+      rgba(0, 0, 0, 0.3)
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#AFB0B2",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      placeholder
+    </div>
+    <div>
+      #AFB0B2
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#008A83",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      positive
+    </div>
+    <div>
+      #008A83
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#E8F3F3",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      positive_background
+    </div>
+    <div>
+      #E8F3F3
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#005F5B",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      positive_hover
+    </div>
+    <div>
+      #005F5B
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ECECEC",
+        "border": "1px solid #eee",
+        "color": "black",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "200px",
+        "justifyContent": "space-around",
+        "marginBottom": "20px",
+        "width": "200px",
+      }
+    }
+  >
+    <div>
+      separator
+    </div>
+    <div>
+      #ECECEC
+    </div>
+  </div>
+</div>
+`;

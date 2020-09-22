@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/InfoBanner All 1`] = `
+Array [
+  <div>
+    Note that the icon can be customized
+  </div>,
+  <br />,
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 2px;
+  background-color: #F8EFEE;
+  color: #CC4B3E;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.c2 {
+  color: #CC4B3E;
+  border-radius: 25px;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+}
+
+<div
+    style={
+      Object {
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      negative
+       :
+    </div>
+    <div
+      className="c0 c1"
+    >
+      <div>
+        <div
+          className="c2"
+        />
+      </div>
+      <div>
+        "Blabla bla bla blablabla"
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 2px;
+  background-color: #E8F3F3;
+  color: #008A83;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.c2 {
+  color: #008A83;
+  border-radius: 25px;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+}
+
+<div
+    style={
+      Object {
+        "marginBottom": "20px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginBottom": "10px",
+        }
+      }
+    >
+      positive
+       :
+    </div>
+    <div
+      className="c0 c1"
+    >
+      <div>
+        <div
+          className="c2"
+        />
+      </div>
+      <div>
+        "Blabla bla bla blablabla"
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Design System/Molecules/InfoBanner Knobs 1`] = `
+.c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 2px;
+  background-color: #F8EFEE;
+  color: #CC4B3E;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.c2 {
+  color: #CC4B3E;
+  border-radius: 25px;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+}
+
+<div
+  className="c0 c1"
+>
+  <div>
+    <div
+      className="c2"
+    />
+  </div>
+  <div>
+    this is an information banner
+  </div>
+</div>
+`;

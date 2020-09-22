@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/Choice Working example 1`] = `
+Array [
+  .c0 {
+  padding: 0!important;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: default;
+  padding: 10px 0;
+  color: #565A5C;
+  cursor: pointer;
+}
+
+.c3:hover > input + span {
+  border-color: #008A83;
+}
+
+.c4 {
+  margin-right: 20px;
+  display: none;
+}
+
+.c4 + span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #008A83;
+  margin-right: 8px;
+}
+
+.c4 + span::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 25px;
+  background-color: #008A83;
+}
+
+.c6 {
+  margin-right: 20px;
+  display: none;
+}
+
+.c6 + span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: currentColor;
+  margin-right: 8px;
+}
+
+.c1.c1.c1.c1.c1 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 16px;
+  border-color: #008A83;
+  cursor: pointer;
+}
+
+.c1.c1.c1.c1.c1:hover {
+  border-color: #565A5C;
+}
+
+.c1.c1.c1.c1.c1 span {
+  display: none;
+}
+
+.c1.c1.c1.c1.c1 label {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px 16px;
+  color: #008A83;
+}
+
+.c5.c5.c5.c5.c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 16px;
+  border-color: #ECECEC;
+  cursor: pointer;
+}
+
+.c5.c5.c5.c5.c5:hover {
+  border-color: #005F5B;
+}
+
+.c5.c5.c5.c5.c5 span {
+  display: none;
+}
+
+.c5.c5.c5.c5.c5 label {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10px 16px;
+  color: #565A5C;
+}
+
+.c2 {
+  -webkit-flex-basis: calc(50% - 8px);
+  -ms-flex-preferred-size: calc(50% - 8px);
+  flex-basis: calc(50% - 8px);
+}
+
+<div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="c0 c1 c2"
+    >
+      <label
+        className="c3"
+        disabled={false}
+        htmlFor="choice-gender-male"
+      >
+        <input
+          checked={true}
+          className="c4"
+          disabled={false}
+          id="choice-gender-male"
+          name="gender"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="radio"
+          value="male"
+        />
+        Mr
+      </label>
+    </div>
+    <div
+      className="c0 c5 c2"
+    >
+      <label
+        className="c3"
+        disabled={false}
+        htmlFor="choice-gender-female"
+      >
+        <input
+          checked={false}
+          className="c6"
+          disabled={false}
+          id="choice-gender-female"
+          name="gender"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="radio"
+          value="female"
+        />
+        Mrs
+      </label>
+    </div>
+  </div>,
+  <hr />,
+  <div>
+    selected value : 
+    male
+  </div>,
+]
+`;

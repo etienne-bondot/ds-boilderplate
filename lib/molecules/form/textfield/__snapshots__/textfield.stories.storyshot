@@ -1,0 +1,802 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/Textfield Knobs 1`] = `
+.c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c6 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c0 {
+  padding-bottom: 16px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 input[type='date']:in-range::-webkit-datetime-edit-year-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-month-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-day-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+.c1 input::-ms-reveal,
+.c1 input::-ms-clear {
+  display: none;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2rem;
+  padding: 0;
+  color: #AFB0B2;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 18px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: #FFF;
+  color: #565A5C;
+  height: 56px;
+  padding: 16px 59px 16px 16px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c2:hover {
+  border-color: #565A5C;
+}
+
+.c2:focus {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2:focus + .c3 {
+  color: #008A83;
+}
+
+.c2.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2.errored + .c3 {
+  color: #CC4B3E;
+}
+
+.c2:disabled {
+  background-color: #FAFAFA;
+  border-color: #ECECEC;
+  color: #AFB0B2;
+}
+
+.c2:-webkit-autofill {
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+
+.c2:-webkit-autofill + .c3 {
+  top: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <input
+      className="c2"
+      disabled={false}
+      id="uniqueId-1"
+      name="textField1"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="password"
+      value=""
+    />
+    <label
+      className="c3 c4"
+      htmlFor="textField1"
+    >
+      label
+    </label>
+  </div>
+  <div
+    className="c5 c6"
+  >
+    testing.helper_message
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design System/Molecules/Form/Textfield Working 1`] = `
+Array [
+  .c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c6 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c0 {
+  padding-bottom: 16px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 input[type='date']:in-range::-webkit-datetime-edit-year-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-month-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-day-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+.c1 input::-ms-reveal,
+.c1 input::-ms-clear {
+  display: none;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2rem;
+  padding: 0;
+  color: #AFB0B2;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 18px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: #FFF;
+  color: #565A5C;
+  height: 56px;
+  padding: 16px 59px 16px 16px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c2:hover {
+  border-color: #565A5C;
+}
+
+.c2:focus {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2:focus + .c3 {
+  color: #008A83;
+}
+
+.c2.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2.errored + .c3 {
+  color: #CC4B3E;
+}
+
+.c2:disabled {
+  background-color: #FAFAFA;
+  border-color: #ECECEC;
+  color: #AFB0B2;
+}
+
+.c2:-webkit-autofill {
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+
+.c2:-webkit-autofill + .c3 {
+  top: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <input
+        className="c2"
+        disabled={true}
+        id="uniqueId-1"
+        name="textField1"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        className="c3 c4"
+        htmlFor="textField1"
+      >
+        Disabled TextField
+      </label>
+    </div>
+    <div
+      className="c5 c6"
+    >
+      testing.helper_message
+    </div>
+  </div>,
+  <br />,
+  .c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c6 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c0 {
+  padding-bottom: 16px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 input[type='date']:in-range::-webkit-datetime-edit-year-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-month-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-day-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+.c1 input::-ms-reveal,
+.c1 input::-ms-clear {
+  display: none;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2rem;
+  padding: 0;
+  color: #AFB0B2;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 18px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: #FFF;
+  color: #565A5C;
+  height: 56px;
+  padding: 16px 59px 16px 16px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c2:hover {
+  border-color: #565A5C;
+}
+
+.c2:focus {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2:focus + .c3 {
+  color: #008A83;
+}
+
+.c2.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2.errored + .c3 {
+  color: #CC4B3E;
+}
+
+.c2:disabled {
+  background-color: #FAFAFA;
+  border-color: #ECECEC;
+  color: #AFB0B2;
+}
+
+.c2:-webkit-autofill {
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+
+.c2:-webkit-autofill + .c3 {
+  top: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <input
+        className="c2"
+        disabled={false}
+        id="uniqueId-2"
+        name="textField2"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        className="c3 c4"
+        htmlFor="textField2"
+      >
+        Simple TextField
+      </label>
+    </div>
+    <div
+      className="c5 c6"
+    >
+      testing.helper_message
+    </div>
+  </div>,
+  <br />,
+  .c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c6 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c0 {
+  padding-bottom: 16px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 input[type='date']:in-range::-webkit-datetime-edit-year-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-month-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-day-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+.c1 input::-ms-reveal,
+.c1 input::-ms-clear {
+  display: none;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2rem;
+  padding: 0;
+  color: #AFB0B2;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 18px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: #FFF;
+  color: #565A5C;
+  height: 56px;
+  padding: 16px 59px 16px 16px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c2:hover {
+  border-color: #565A5C;
+}
+
+.c2:focus {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2:focus + .c3 {
+  color: #008A83;
+}
+
+.c2.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2.errored + .c3 {
+  color: #CC4B3E;
+}
+
+.c2:disabled {
+  background-color: #FAFAFA;
+  border-color: #ECECEC;
+  color: #AFB0B2;
+}
+
+.c2:-webkit-autofill {
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+
+.c2:-webkit-autofill + .c3 {
+  top: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <input
+        className="c2"
+        disabled={false}
+        id="uniqueId-3"
+        name="textField3"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <label
+        className="c3 c4"
+        htmlFor="textField3"
+      >
+        Password TextField
+      </label>
+    </div>
+    <div
+      className="c5 c6"
+    >
+      testing.helper_message
+    </div>
+  </div>,
+  <br />,
+  .c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c6 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c0 {
+  padding-bottom: 16px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c1 input[type='date']:in-range::-webkit-datetime-edit-year-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-month-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-day-field,
+.c1 input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+.c1 input::-ms-reveal,
+.c1 input::-ms-clear {
+  display: none;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 2rem;
+  padding: 0;
+  color: #AFB0B2;
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 18px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  background-color: #FFF;
+  color: #565A5C;
+  height: 56px;
+  padding: 16px 59px 16px 16px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c2:hover {
+  border-color: #565A5C;
+}
+
+.c2:focus {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2:focus + .c3 {
+  color: #008A83;
+}
+
+.c2.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 15px 59px 15px 15px;
+}
+
+.c2.errored + .c3 {
+  color: #CC4B3E;
+}
+
+.c2:disabled {
+  background-color: #FAFAFA;
+  border-color: #ECECEC;
+  color: #AFB0B2;
+}
+
+.c2:-webkit-autofill {
+  padding-top: 23px;
+  padding-bottom: 7px;
+}
+
+.c2:-webkit-autofill + .c3 {
+  top: 10px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <input
+        className="c2"
+        disabled={false}
+        id="uniqueId-4"
+        name="textField4"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <label
+        className="c3 c4"
+        htmlFor="textField4"
+      >
+        TextField with action
+      </label>
+    </div>
+    <div
+      className="c5 c6"
+    >
+      testing.helper_message
+    </div>
+  </div>,
+]
+`;

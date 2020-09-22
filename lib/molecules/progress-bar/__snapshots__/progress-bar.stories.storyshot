@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/ProgressBars Knobs 1`] = `
+.c1 {
+  width: 100%;
+  background-color: #ECECEC;
+}
+
+.c2 {
+  background-color: #008A83;
+  height: 2px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+  width: 20%;
+}
+
+.c0 {
+  width: 300px;
+}
+
+.c0 > div {
+  margin-bottom: 20px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      max={100}
+      value={20}
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design System/Molecules/ProgressBars Working example 1`] = `
+.c1 {
+  width: 100%;
+  background-color: #ECECEC;
+}
+
+.c2 {
+  background-color: #008A83;
+  height: 2px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+  width: 25%;
+}
+
+.c3 {
+  background-color: #008A83;
+  height: 2px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+  width: 50%;
+}
+
+.c4 {
+  background-color: #008A83;
+  height: 2px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+  width: 75%;
+}
+
+.c5 {
+  background-color: #008A83;
+  height: 2px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+  width: 100%;
+}
+
+.c0 {
+  width: 300px;
+}
+
+.c0 > div {
+  margin-bottom: 20px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      max={100}
+      value={25}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c3"
+      max={100}
+      value={50}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c4"
+      max={100}
+      value={75}
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c5"
+      max={100}
+      value={100}
+    />
+  </div>
+</div>
+`;

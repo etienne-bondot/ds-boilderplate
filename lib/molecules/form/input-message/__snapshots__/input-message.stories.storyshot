@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/FormInputMessage All 1`] = `
+Array [
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c1 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+<div
+    className="c0 c1"
+  >
+    form message
+  </div>,
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c1 {
+  color: #CC4B3E;
+  margin-top: 8px;
+}
+
+<div
+    className="c0 c1"
+  >
+    form message
+  </div>,
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c1 {
+  color: #008A83;
+  margin-top: 8px;
+}
+
+<div
+    className="c0 c1"
+  >
+    form message
+  </div>,
+]
+`;
+
+exports[`Storyshots Design System/Molecules/Form/FormInputMessage Knobs 1`] = `
+.c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.c1 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+<div
+  className="c0 c1"
+>
+  this is a form message
+</div>
+`;

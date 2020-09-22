@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Atoms/Typography All 1`] = `
+.c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.c3 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-bottom: 2.4rem;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.c5 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+}
+
+.c6 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+}
+
+.c7 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+}
+
+.c8 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.c9 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.c10 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 1.6rem;
+}
+
+.c11 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 1.6rem;
+}
+
+.c12 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.c13 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.c1.c1 {
+  border: 1px dashed lightgrey;
+  margin: 10px 0 30px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    font-size: 4.6rem;
+    line-height: 5.4rem;
+    padding-bottom: 3.2rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
+}
+
+<div
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexFlow": "row wrap",
+      "margin": "20px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    h1
+     : 
+    <br />
+    <h1
+      className="c0 c1"
+    >
+      Blabla bla bla
+    </h1>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    h2
+     : 
+    <br />
+    <h2
+      className="c2 c1"
+    >
+      Blabla bla bla
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    h3
+     : 
+    <br />
+    <h3
+      className="c3 c1"
+    >
+      Blabla bla bla
+    </h3>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    h4
+     : 
+    <br />
+    <h4
+      className="c4 c1"
+    >
+      Blabla bla bla
+    </h4>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    h5
+     : 
+    <br />
+    <h5
+      className="c5 c1"
+    >
+      Blabla bla bla
+    </h5>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    base
+     : 
+    <br />
+    <div
+      className="c6 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    baseBold
+     : 
+    <br />
+    <div
+      className="c7 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    large
+     : 
+    <br />
+    <div
+      className="c8 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    largeBold
+     : 
+    <br />
+    <div
+      className="c9 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    micro
+     : 
+    <br />
+    <div
+      className="c10 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    microBold
+     : 
+    <br />
+    <div
+      className="c11 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    small
+     : 
+    <br />
+    <div
+      className="c12 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20px",
+        "width": "33%",
+      }
+    }
+  >
+    smallBold
+     : 
+    <br />
+    <div
+      className="c13 c1"
+    >
+      Blabla bla bla
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design System/Atoms/Typography Knobs 1`] = `
+.c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  padding-bottom: 2.4rem;
+}
+
+.c1.c1 {
+  border: 1px dashed lightgrey;
+  margin: 10px 0 30px;
+}
+
+@media screen and (min-width:768px) {
+  .c0 {
+    font-size: 4.6rem;
+    line-height: 5.4rem;
+    padding-bottom: 3.2rem;
+  }
+}
+
+<h1
+  className="c0 c1"
+>
+  blabla blabla
+</h1>
+`;

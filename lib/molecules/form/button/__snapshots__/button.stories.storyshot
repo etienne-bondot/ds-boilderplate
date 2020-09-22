@@ -1,0 +1,1152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/Button All 1`] = `
+Array [
+  .c4 {
+  width: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+}
+
+.c7 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.c8 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.c12 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #008A83;
+}
+
+.c13 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #008A83;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.c14 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #008A83;
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.c1.c1.c1.c1.c1 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #008A83;
+  border-color: #008A83;
+}
+
+.c1.c1.c1.c1.c1:hover {
+  color: #FFF;
+  background-color: #005F5B;
+  border-color: #005F5B;
+}
+
+.c2.c2.c2.c2.c2 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #AFB0B2;
+  background-color: #ECECEC;
+  border-color: #ECECEC;
+}
+
+.c3.c3.c3.c3.c3 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #FFF;
+  background-color: #008A83;
+  border-color: #008A83;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3.c3.c3.c3.c3 > span {
+  opacity: 0;
+}
+
+.c9.c9.c9.c9.c9 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #008A83;
+  background-color: #FFF;
+  border-color: #ECECEC;
+}
+
+.c9.c9.c9.c9.c9:hover {
+  color: #008A83;
+  background-color: #E8F3F3;
+  border-color: #ECECEC;
+}
+
+.c10.c10.c10.c10.c10 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #AFB0B2;
+  background-color: #FFF;
+  border-color: #ECECEC;
+}
+
+.c11.c11.c11.c11.c11 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #008A83;
+  background-color: #FFF;
+  border-color: #ECECEC;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c11.c11.c11.c11.c11 > span {
+  opacity: 0;
+}
+
+.c15.c15.c15.c15.c15 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #008A83;
+  border: 0;
+  padding: 0;
+}
+
+.c15.c15.c15.c15.c15:hover {
+  color: #005F5B;
+}
+
+.c16.c16.c16.c16.c16 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  border: 0;
+  padding: 0;
+}
+
+.c17.c17.c17.c17.c17 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  border: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  position: absolute;
+}
+
+.c0 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.c0 > button {
+  margin: 20px !important;
+}
+
+<div>
+    <div
+      className="c0"
+    >
+      <button
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          primary
+        </span>
+      </button>
+      <button
+        className="c2"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          disabled // primary
+        </span>
+      </button>
+      <button
+        className="c3"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="c4 c5"
+        >
+          <span
+            className="c6"
+          />
+          <span
+            className="c7"
+          />
+          <span
+            className="c8"
+          />
+        </div>
+        <span>
+          primary
+        </span>
+      </button>
+      <br />
+      <button
+        className="c9"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          secondary
+        </span>
+      </button>
+      <button
+        className="c10"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          disabled // secondary
+        </span>
+      </button>
+      <button
+        className="c11"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="c4 c5"
+        >
+          <span
+            className="c12"
+          />
+          <span
+            className="c13"
+          />
+          <span
+            className="c14"
+          />
+        </div>
+        <span>
+          secondary
+        </span>
+      </button>
+      <br />
+      <button
+        className="c15"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          large // link
+        </span>
+      </button>
+      <button
+        className="c16"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          large // link
+        </span>
+      </button>
+      <button
+        className="c17"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          small // link
+        </span>
+      </button>
+    </div>
+  </div>,
+  .c4 {
+  width: 26px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+}
+
+.c7 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.c8 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #FFF;
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.c12 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #CC4B3E;
+}
+
+.c13 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #CC4B3E;
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+.c14 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: huPHJa 1200ms infinite both;
+  animation: huPHJa 1200ms infinite both;
+  background-color: #CC4B3E;
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+}
+
+.c2.c2.c2.c2.c2 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #AFB0B2;
+  background-color: #ECECEC;
+  border-color: #ECECEC;
+}
+
+.c10.c10.c10.c10.c10 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #AFB0B2;
+  background-color: #FFF;
+  border-color: #ECECEC;
+}
+
+.c16.c16.c16.c16.c16 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  border: 0;
+  padding: 0;
+}
+
+.c17.c17.c17.c17.c17 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  border: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1.c1.c1.c1.c1 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #CC4B3E;
+  border-color: #CC4B3E;
+}
+
+.c1.c1.c1.c1.c1:hover {
+  color: #FFF;
+  background-color: #B33225;
+  border-color: #B33225;
+}
+
+.c3.c3.c3.c3.c3 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #FFF;
+  background-color: #CC4B3E;
+  border-color: #CC4B3E;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3.c3.c3.c3.c3 > span {
+  opacity: 0;
+}
+
+.c9.c9.c9.c9.c9 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #CC4B3E;
+  background-color: #FFF;
+  border-color: #ECECEC;
+}
+
+.c9.c9.c9.c9.c9:hover {
+  color: #CC4B3E;
+  background-color: #F8EFEE;
+  border-color: #ECECEC;
+}
+
+.c11.c11.c11.c11.c11 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: default;
+  color: #CC4B3E;
+  background-color: #FFF;
+  border-color: #ECECEC;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c11.c11.c11.c11.c11 > span {
+  opacity: 0;
+}
+
+.c15.c15.c15.c15.c15 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #CC4B3E;
+  border: 0;
+  padding: 0;
+}
+
+.c15.c15.c15.c15.c15:hover {
+  color: #B33225;
+}
+
+.c5 {
+  position: absolute;
+}
+
+.c0 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.c0 > button {
+  margin: 20px !important;
+}
+
+<div>
+    <div
+      className="c0"
+    >
+      <button
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          primary
+        </span>
+      </button>
+      <button
+        className="c2"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          disabled // primary
+        </span>
+      </button>
+      <button
+        className="c3"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="c4 c5"
+        >
+          <span
+            className="c6"
+          />
+          <span
+            className="c7"
+          />
+          <span
+            className="c8"
+          />
+        </div>
+        <span>
+          primary
+        </span>
+      </button>
+      <br />
+      <button
+        className="c9"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          secondary
+        </span>
+      </button>
+      <button
+        className="c10"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          disabled // secondary
+        </span>
+      </button>
+      <button
+        className="c11"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <div
+          className="c4 c5"
+        >
+          <span
+            className="c12"
+          />
+          <span
+            className="c13"
+          />
+          <span
+            className="c14"
+          />
+        </div>
+        <span>
+          secondary
+        </span>
+      </button>
+      <br />
+      <button
+        className="c15"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          large // link
+        </span>
+      </button>
+      <button
+        className="c16"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          large // link
+        </span>
+      </button>
+      <button
+        className="c17"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          small // link
+        </span>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Design System/Molecules/Form/Button Knobs 1`] = `
+.c0.c0.c0.c0.c0 {
+  -webkit-flex: initial;
+  -ms-flex: initial;
+  flex: initial;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #008A83;
+  border-color: #008A83;
+}
+
+.c0.c0.c0.c0.c0:hover {
+  color: #FFF;
+  background-color: #005F5B;
+  border-color: #005F5B;
+}
+
+<button
+  className="c0"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <span>
+    mybutton
+  </span>
+</button>
+`;

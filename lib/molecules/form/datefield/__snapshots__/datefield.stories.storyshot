@@ -1,0 +1,560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System|Molecules/Form/DateField Knobs 1`] = `
+.c3 {
+  position: relative;
+  display: inline;
+  z-index: 0;
+}
+
+.c6 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #565A5C;
+  caret-color: #008A83;
+  padding: 0;
+  background-color: transparent;
+}
+
+.c7 {
+  width: 20px;
+}
+
+.c9 {
+  width: 40px;
+}
+
+.c8 {
+  position: relative;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  top: 1px;
+  margin: 0 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  display: block;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.8rem;
+  pointer-events: none;
+}
+
+.c11 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-animation: ehzjup 100ms ease-in forwards;
+  animation: ehzjup 100ms ease-in forwards;
+}
+
+.c11:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c11 > svg {
+  color: #FFF;
+}
+
+.c0 {
+  position: relative;
+  background-color: #FFF;
+  height: 56px;
+  padding: 8px 16px 6px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c0:hover {
+  border-color: #565A5C;
+}
+
+.c0:focus-within {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 7px 15px 5px;
+}
+
+.c0:focus-within + .c1 {
+  color: #008A83;
+}
+
+.c0:focus-within .c10 {
+  top: 14px;
+  right: 14px;
+}
+
+.c0.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 7px 15px 5px;
+}
+
+.c0.errored + .c1 {
+  color: #CC4B3E;
+}
+
+.c0.errored .c10 {
+  top: 14px;
+  right: 14px;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  font-family: 'Roboto Mono',monospace;
+  color: #AFB0B2;
+  display: inline;
+  left: 0;
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: -1;
+  padding-top: 1px;
+}
+
+.c5 {
+  visibility: hidden;
+}
+
+<div
+  style={
+    Object {
+      "width": "300px",
+    }
+  }
+>
+  <div>
+    <div
+      className="c0"
+      onBlur={[Function]}
+      onClick={[Function]}
+    >
+      <label
+        className="c1 c2"
+      >
+        Label
+      </label>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            JJ
+          </span>
+        </div>
+        <input
+          className="c6 c7"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c8"
+      >
+        /
+      </span>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            MM
+          </span>
+        </div>
+        <input
+          className="c6 c7"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c8"
+      >
+        /
+      </span>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            AAAA
+          </span>
+        </div>
+        <input
+          className="c6 c9"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c10 c11"
+        onClick={[Function]}
+      >
+        <div
+          className=""
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Design System|Molecules/Form/DateField Working example 1`] = `
+.c3 {
+  position: relative;
+  display: inline;
+  z-index: 0;
+}
+
+.c6 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #565A5C;
+  caret-color: #008A83;
+  padding: 0;
+  background-color: transparent;
+}
+
+.c7 {
+  width: 20px;
+}
+
+.c9 {
+  width: 40px;
+}
+
+.c8 {
+  position: relative;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  top: 1px;
+  margin: 0 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c2 {
+  display: block;
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 1.6rem;
+  color: #AFB0B2;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.8rem;
+  pointer-events: none;
+}
+
+.c11 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-animation: ehzjup 100ms ease-in forwards;
+  animation: ehzjup 100ms ease-in forwards;
+}
+
+.c11:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c11 > svg {
+  color: #FFF;
+}
+
+.c0 {
+  position: relative;
+  background-color: #FFF;
+  height: 56px;
+  padding: 8px 16px 6px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  -webkit-transition: border-color 200ms ease,color 150ms ease;
+  transition: border-color 200ms ease,color 150ms ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.c0:hover {
+  border-color: #565A5C;
+}
+
+.c0:focus-within {
+  border-width: 2px;
+  border-color: #008A83;
+  padding: 7px 15px 5px;
+}
+
+.c0:focus-within + .c1 {
+  color: #008A83;
+}
+
+.c0:focus-within .c10 {
+  top: 14px;
+  right: 14px;
+}
+
+.c0.errored {
+  border-width: 2px;
+  border-color: #CC4B3E;
+  padding: 7px 15px 5px;
+}
+
+.c0.errored + .c1 {
+  color: #CC4B3E;
+}
+
+.c0.errored .c10 {
+  top: 14px;
+  right: 14px;
+}
+
+.c4 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-bottom: 1.6rem;
+  font-family: 'Roboto Mono',monospace;
+  color: #AFB0B2;
+  display: inline;
+  left: 0;
+  position: absolute;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: -1;
+  padding-top: 1px;
+}
+
+.c5 {
+  visibility: hidden;
+}
+
+<div
+  style={
+    Object {
+      "width": "300px",
+    }
+  }
+>
+  <div>
+    <div
+      className="c0"
+      onBlur={[Function]}
+      onClick={[Function]}
+    >
+      <label
+        className="c1 c2"
+      >
+        Date of birth
+      </label>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            JJ
+          </span>
+        </div>
+        <input
+          className="c6 c7"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c8"
+      >
+        /
+      </span>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            MM
+          </span>
+        </div>
+        <input
+          className="c6 c7"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c8"
+      >
+        /
+      </span>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+        >
+          <span
+            className="c5"
+          >
+            
+          </span>
+          <span>
+            AAAA
+          </span>
+        </div>
+        <input
+          className="c6 c9"
+          inputMode="numeric"
+          onChange={[Function]}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <span
+        className="c10 c11"
+        onClick={[Function]}
+      >
+        <div
+          className=""
+        />
+      </span>
+    </div>
+  </div>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "marginTop": "40px",
+      }
+    }
+    type="submit"
+  >
+    submit
+  </button>
+</div>
+`;

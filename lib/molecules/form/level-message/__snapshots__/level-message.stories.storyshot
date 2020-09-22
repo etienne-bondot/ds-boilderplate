@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/LevelMessage All 1`] = `
+Array [
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.c1 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c1 strong {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #CC4B3E;
+}
+
+<div
+    className="c0 c1"
+  >
+    form 
+    <strong>
+      message
+    </strong>
+  </div>,
+  .c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.c1 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c1 strong {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #008A83;
+}
+
+<div
+    className="c0 c1"
+  >
+    form 
+    <strong>
+      message
+    </strong>
+  </div>,
+]
+`;
+
+exports[`Storyshots Design System/Molecules/Form/LevelMessage Knobs 1`] = `
+.c0 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.c1 {
+  color: #AFB0B2;
+  margin-top: 8px;
+}
+
+.c1 strong {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #CC4B3E;
+}
+
+<div
+  className="c0 c1"
+>
+  form 
+  <strong>
+    message
+  </strong>
+</div>
+`;

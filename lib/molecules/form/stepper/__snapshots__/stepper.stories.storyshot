@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/Stepper Knobs 1`] = `
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.c0 {
+  width: 100%;
+  min-width: 230px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 48px;
+  height: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 0 1px 0 0;
+  border-radius: 6px 0 0 6px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #008A83;
+}
+
+.c4 {
+  width: 48px;
+  height: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 0 0 0 1px;
+  border-radius: 0 6px 6px 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #008A83;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 16px;
+  background-color: #008A83;
+}
+
+.c3 {
+  color: #CC4B3E;
+  width: 100%;
+  text-align: center;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  />
+  <div
+    className="c2 c3"
+  >
+    10
+  </div>
+  <button
+    className="c4"
+    disabled={false}
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Storyshots Design System/Molecules/Form/Stepper Working example 1`] = `
+.c2 {
+  font-family: 'Lato',Tahoma,sans-serif,arial;
+  font-display: swap;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.c0 {
+  width: 100%;
+  min-width: 230px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #ECECEC;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 48px;
+  height: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 0 1px 0 0;
+  border-radius: 6px 0 0 6px;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #008A83;
+}
+
+.c4 {
+  width: 48px;
+  height: 100%;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 0 0 0 1px;
+  border-radius: 0 6px 6px 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c4::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #008A83;
+}
+
+.c4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 16px;
+  background-color: #008A83;
+}
+
+.c3 {
+  color: #565A5C;
+  width: 100%;
+  text-align: center;
+}
+
+<div
+  className="c0"
+>
+  <button
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  />
+  <div
+    className="c2 c3"
+  >
+    10
+  </div>
+  <button
+    className="c4"
+    disabled={false}
+    onClick={[Function]}
+  />
+</div>
+`;

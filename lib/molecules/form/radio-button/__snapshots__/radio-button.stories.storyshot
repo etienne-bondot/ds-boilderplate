@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System/Molecules/Form/RadioButton Knobs 1`] = `
+.c0 {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: default;
+  padding: 10px 0;
+  color: #565A5C;
+  cursor: pointer;
+}
+
+.c1:hover > input + span {
+  border-color: #008A83;
+}
+
+.c2 {
+  margin-right: 20px;
+  display: none;
+}
+
+.c2 + span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: currentColor;
+  margin-right: 8px;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+    disabled={false}
+    htmlFor="uniqueId"
+  >
+    <input
+      checked={false}
+      className="c2"
+      disabled={false}
+      id="uniqueId"
+      name="myRadio"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="radio"
+      value="value1"
+    />
+    <span />
+    <div>
+      my radio
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Design System/Molecules/Form/RadioButton Working example 1`] = `
+Array [
+  .c0 {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: default;
+  padding: 10px 0;
+  color: #565A5C;
+  cursor: pointer;
+}
+
+.c1:hover > input + span {
+  border-color: #008A83;
+}
+
+.c2 {
+  margin-right: 20px;
+  display: none;
+}
+
+.c2 + span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #008A83;
+  margin-right: 8px;
+}
+
+.c2 + span::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 25px;
+  background-color: #008A83;
+}
+
+.c3 {
+  margin-right: 20px;
+  display: none;
+}
+
+.c3 + span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: currentColor;
+  margin-right: 8px;
+}
+
+<div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "width": "200px",
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <label
+        className="c1"
+        disabled={false}
+        htmlFor="uniqueId1"
+      >
+        <input
+          checked={true}
+          className="c2"
+          disabled={false}
+          id="uniqueId1"
+          name="myRadio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="radio"
+          value="value1"
+        />
+        <span />
+        <div>
+          radio value1
+        </div>
+      </label>
+    </div>
+    <div
+      className="c0"
+    >
+      <label
+        className="c1"
+        disabled={false}
+        htmlFor="uniqueId2"
+      >
+        <input
+          checked={false}
+          className="c3"
+          disabled={false}
+          id="uniqueId2"
+          name="myRadio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="radio"
+          value="value2"
+        />
+        <span />
+        <div>
+          radio value1
+        </div>
+      </label>
+    </div>
+  </div>,
+  <hr />,
+  <div>
+    selected value : 
+    value1
+  </div>,
+]
+`;
