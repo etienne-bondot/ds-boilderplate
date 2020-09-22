@@ -1,6 +1,6 @@
 # Generated
 public
-node_build
+build
 logs
 *.log
 monitor

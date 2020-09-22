@@ -2,11 +2,14 @@
   "name": "ds-boilderplate",
   "version": "1.0.0",
   "description": "A design system boilderplate",
-  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "files": ["build"],
   "scripts": {
+    "build": "rollup -c",
     "build-storybook": "build-storybook",
     "linter": "eslint --quiet --cache 'lib/**/*.ts' 'lib/**/*.tsx'",
     "linter:fix": "npm run linter -- --fix",
@@ -31,6 +34,8 @@
   "homepage": "https://github.com/etienne-bondot/ds-boilderplate#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/addon-knobs": "^6.0.21",
     "@storybook/addon-links": "^6.0.21",
@@ -69,6 +74,9 @@
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
     "react-test-renderer": "^16.13.1",
+    "rollup": "^2.28.1",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-typescript2": "^0.27.2",
     "storybook": "^6.0.21",
     "ts-jest": "^26.4.0",
     "tsconfig-paths-webpack-plugin": "^3.3.0",
@@ -78,7 +86,7 @@
     "classnames": "^2.2.6",
     "concurrently": "^5.3.0",
     "dayjs": "^1.8.36",
-    "formik": "^2.1.5",    
+    "formik": "^2.1.5",
     "react-sticky-el": "^2.0.5",
     "react-transition-group": "^4.4.1",
     "styled-components": "^5.2.0"
