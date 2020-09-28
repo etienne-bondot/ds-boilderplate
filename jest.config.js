@@ -1,8 +1,9 @@
 module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  modulePathIgnorePatterns: ["<rootDir>/lib/", "<rootDir>/build/"],
   moduleNameMapper: {
-    '@hooks(.*)$': '<rootDir>/lib/hooks/$1',
-    '@utils(.*)$': '<rootDir>/lib/utils/$1',
+    '@hooks(.*)$': '<rootDir>/src/hooks/$1',
+    '@utils(.*)$': '<rootDir>/src/utils/$1',
   },
   preset: 'ts-jest',
   setupFilesAfterEnv: ['./jest.setup.js'],

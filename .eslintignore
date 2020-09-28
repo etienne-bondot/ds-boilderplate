@@ -3,4 +3,3 @@ node_modules
 
 jest.config.js
 jest.setup.js
-rollup.config.js

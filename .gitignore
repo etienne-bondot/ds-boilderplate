@@ -1,6 +1,7 @@
 # Generated
 public
 build
+lib
 logs
 *.log
 monitor

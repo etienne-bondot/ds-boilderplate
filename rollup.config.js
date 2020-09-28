@@ -1,28 +1,29 @@
-import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
-import typescript from "rollup-plugin-typescript2";
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import external from 'rollup-plugin-peer-deps-external';
+import typescript from 'rollup-plugin-typescript2';
 
-const packageJson = require("./package.json");
+const pkg = require('./package.json');
 
 export default {
-  input: "lib/index.ts",
+  external: Object.keys(pkg.peerDependencies || {}),
+  input: 'src/index.ts',
   output: [
     {
-      file: packageJson.main,
-      format: "cjs",
-      sourcemap: true
+      file: pkg.main,
+      format: 'cjs',
+      sourcemap: true,
     },
     {
-      file: packageJson.module,
-      format: "esm",
-      sourcemap: true
-    }
+      file: pkg.module,
+      format: 'esm',
+      sourcemap: true,
+    },
   ],
   plugins: [
-    peerDepsExternal(),
+    external(),
     resolve(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true }),
-  ]
+    typescript({useTsconfigDeclarationDir: true}),
+  ],
 };
