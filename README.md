@@ -1,8 +1,8 @@
-# ds-boilderplate
+# react-design-system-boilderplate
 
 ![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)
 
-A design system boilderplate. This project skeleton was created to help people get started with creating their own React component library with:
+A design system boilderplate built with React. This project skeleton was created to help people get started with creating their own React component library with:
 
 - written in React with [TypeScript](https://www.typescriptlang.org/)
 - test with [Jest](https://jestjs.io/)
@@ -49,7 +49,7 @@ yarn start
 Let's say you have another project (`test-app`) on your machine that you want to try installing the component library into without having to first publish the component library. In the `test-app` directory, you can run:
 
 ```
-yarn add ../ds-boilderplate
+yarn add ../react-design-system-boilderplate
 ```
 
 which will install the local component library as a dependency in `test-app`. It'll then appear as a dependency in `package.json` like:
@@ -57,9 +57,7 @@ which will install the local component library as a dependency in `test-app`. It
 ```JSON
   ...
   "dependencies": {
-    ...
-    "ds-boilderplate": "file:../ds-boilderplate",
-    ...
+    "react-design-system-boilderplate": "file:../react-design-system-boilderplate",
   },
   ...
 ```
@@ -97,5 +95,3 @@ const App = () => (
 
 export default App;
 ```
-
-[Check out this Code Sandbox for a live example.](https://codesandbox.io/s/harvey-component-library-example-y2b60?file=/src/App.js)
